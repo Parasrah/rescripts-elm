@@ -1,7 +1,7 @@
 const R = require('ramda')
 
 const addElmLoader = R.over(
-  R.lensPath(['modules', 'rules']),
+  R.lensPath(['module', 'rules']),
   R.prepend({
     test: /\.elm$/,
     exclude: [

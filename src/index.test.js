@@ -11,7 +11,7 @@ describe('rescript elm', () => {
     }
 
     const output = addElmLoader(config)
-    const { rules } = output.modules
+    const { rules } = output.module
 
     expect(rules).toHaveLength(2)
 
