@@ -1,5 +1,5 @@
 {
-  "name": "@elm-react/rescript-elm",
+  "name": "@elm-react/rescripts-elm",
   "version": "1.0.0",
   "description": "Rescript package to support Elm files",
   "main": "src/index.js",
@@ -23,7 +23,6 @@
   },
   "homepage": "https://github.com/Parasrah/rescript-elm#readme",
   "devDependencies": {
-    "@rescripts/utilities": "0.0.6",
     "@types/jest": "^24.9.1",
     "elm-webpack-loader": "^6.0.1",
     "eslint": "^6.8.0",
